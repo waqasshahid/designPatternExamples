@@ -1,15 +1,18 @@
 package com.waqas.patterns.adapterpattern.payd;
 
+/**
+ * @author Waqas Shahid
+ */
 public interface PayD {
-    public String getCustCardNo();
-    public String getCardOwnerName();
-    public String getCardExpMonthDate();
-    public Integer getCVVNo();
-    public Double getTotalAmount();
+    String getCustCardNo();
+    String getCardOwnerName();
+    String getCardExpMonthDate();
+    Integer getCVVNo();
+    Double getTotalAmount();
 
-    public void setCustCardNo(String custCardNo);
-    public void setCardOwnerName(String cardOwnerName);
-    public void setCardExpMonthDate(String cardExpMonthDate);
-    public void setCVVNo(Integer cVVNo);
-    public void setTotalAmount(Double totalAmount);
+    void setCustCardNo(String custCardNo);
+    void setCardOwnerName(String cardOwnerName);
+    void setCardExpMonthDate(String cardExpMonthDate);
+    void setCVVNo(Integer cVVNo);
+    void setTotalAmount(Double totalAmount);
 }

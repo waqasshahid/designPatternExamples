@@ -1,5 +1,8 @@
 package com.waqas.patterns.bridgepattern;
 
+/**
+ * @author Waqas Shahid
+ */
 public class RunBridgeExample {
     public static void main(String[] args) {
         Product product = new CentralLocking("Central Locking System");

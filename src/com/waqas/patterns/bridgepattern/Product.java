@@ -1,6 +1,9 @@
 package com.waqas.patterns.bridgepattern;
 
+/**
+ * @author Waqas Shahid
+ */
 public interface Product {
-    public String productName();
-    public void produce();
+    String productName();
+    void produce();
 }

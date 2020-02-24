@@ -1,5 +1,8 @@
 package com.waqas.patterns.facadepattern;
 
+/**
+ * @author Waqas Shahid
+ */
 public class ScheduleServer {
     public void startBooting(){
         System.out.println("Starts booting...");

@@ -1,5 +1,8 @@
 package com.waqas.patterns.bridgepattern;
 
+/**
+ * @author Waqas Shahid
+ */
 public class Motoren extends Car {
     private final Product product;
     private final String carType;

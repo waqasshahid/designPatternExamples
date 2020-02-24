@@ -1,17 +1,20 @@
 package com.waqas.patterns.adapterpattern.xpay;
 
+/**
+ * @author Waqas Shahid
+ */
 public interface Xpay {
-    public String getCreditCardNo();
-    public String getCustomerName();
-    public String getCardExpMonth();
-    public String getCardExpYear();
-    public Short getCardCVVNo();
-    public Double getAmount();
+    String getCreditCardNo();
+    String getCustomerName();
+    String getCardExpMonth();
+    String getCardExpYear();
+    Short getCardCVVNo();
+    Double getAmount();
 
-    public void setCreditCardNo(String creditCardNo);
-    public void setCustomerName(String customerName);
-    public void setCardExpMonth(String cardExpMonth);
-    public void setCardExpYear(String cardExpYear);
-    public void setCardCVVNo(Short cardCVVNo);
-    public void setAmount(Double amount);
+    void setCreditCardNo(String creditCardNo);
+    void setCustomerName(String customerName);
+    void setCardExpMonth(String cardExpMonth);
+    void setCardExpYear(String cardExpYear);
+    void setCardCVVNo(Short cardCVVNo);
+    void setAmount(Double amount);
 }

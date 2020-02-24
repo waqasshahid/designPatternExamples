@@ -1,5 +1,8 @@
 package com.waqas.patterns.bridgepattern;
 
+/**
+ * @author Waqas Shahid
+ */
 public class BigWheel extends Car {
     private final Product product;
     private final String carType;

@@ -2,6 +2,9 @@ package com.waqas.patterns.adapterpattern.site;
 
 import com.waqas.patterns.adapterpattern.xpay.Xpay;
 
+/**
+ * @author Waqas Shahid
+ */
 public class XpayImpl implements Xpay {
     @Override
     public String getCreditCardNo() {

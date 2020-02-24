@@ -3,6 +3,9 @@ package com.waqas.patterns.adapterpattern.site;
 import com.waqas.patterns.adapterpattern.payd.PayD;
 import com.waqas.patterns.adapterpattern.xpay.Xpay;
 
+/**
+ * @author Waqas Shahid
+ */
 public class RunAdapterExample {
     public static void main(String[] args) {
         // Object for Xpay

@@ -1,5 +1,8 @@
 package com.waqas.patterns.bridgepattern;
 
+/**
+ * @author Waqas Shahid
+ */
 public class CentralLocking implements Product {
     private final String productName;
 
